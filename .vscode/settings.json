@@ -1,5 +1,9 @@
 {
+  // editor
   "editor.tabSize": 2,
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
   "editor.scrollBeyondLastLine": false,
   "editor.wrappingIndent": "indent",
   "editor.quickSuggestions": {
@@ -10,16 +14,28 @@
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
   },
-  "editor.formatOnType": true,
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
   "editor.dragAndDrop": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.minimap.maxColumn": 80,
   "editor.minimap.showSlider": "always",
   "editor.showFoldingControls": "always",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "[markdown]": {
+    "editor.formatOnType": false,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false
+  },
+
+  // workbench
+  "workbench.iconTheme": "vscode-icons",
+
+  // debug
   "debug.inlineValues": true,
 
+  // extensions
+  "extensions.showRecommendationsOnlyOnDemand": false,
+
+  // code-runner
   "code-runner.runInTerminal": true,
   "code-runner.clearPreviousOutput": true,
   "code-runner.executorMap": {
