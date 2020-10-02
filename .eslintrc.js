@@ -12,5 +12,6 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   rules: {
     'no-console': ['off'],
+    'class-methods-use-this': ['off'],
   },
 };

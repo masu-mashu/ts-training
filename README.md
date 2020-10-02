@@ -6,4 +6,5 @@
   - mac: nodenv, windows: nodist推奨
 
 ## code-runnerで実行
-  - ショートカット:  ⌃ + ⌥ + N
+
+- ショートカット: ⌃ + ⌥ + N
