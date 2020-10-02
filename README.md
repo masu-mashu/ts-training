@@ -1,2 +1,3 @@
 # ts-training
-TypeScript勉強会用
+
+TypeScript 勉強会用

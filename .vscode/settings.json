@@ -1,0 +1,28 @@
+{
+  "editor.tabSize": 2,
+  "editor.scrollBeyondLastLine": false,
+  "editor.wrappingIndent": "indent",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.dragAndDrop": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.minimap.maxColumn": 80,
+  "editor.minimap.showSlider": "always",
+  "editor.showFoldingControls": "always",
+  "debug.inlineValues": true,
+
+  "code-runner.runInTerminal": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.executorMap": {
+    "typescript": "./node_modules/.bin/ts-node"
+  }
+}
